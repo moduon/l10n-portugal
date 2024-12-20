@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo-addon-l10n_pt_account_invoicexpress>=16.0dev,<16.1dev',
         'odoo-addon-l10n_pt_stock_invoicexpress>=16.0dev,<16.1dev',
+        'odoo-addon-l10n_pt_stock_vehicle_daily>=16.0dev,<16.1dev',
         'odoo-addon-l10n_pt_vat>=16.0dev,<16.1dev',
     ],
     classifiers=[
