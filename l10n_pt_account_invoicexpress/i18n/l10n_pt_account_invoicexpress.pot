@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 16.0\n"
+"Project-Id-Version: Odoo Server 17.0\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -98,8 +98,7 @@ msgstr ""
 #: code:addons/l10n_pt_account_invoicexpress/models/account_move.py:0
 #, python-format
 msgid ""
-"Email sent by InvoiceXpress:<ul><li>To: %(email)s</li><li>Cc: "
-"%(cc)s</li></ul>"
+"Email sent by InvoiceXpress:<ul><li>To: {email}</li><li>Cc:{cc}</li></ul>"
 msgstr ""
 
 #. module: l10n_pt_account_invoicexpress
@@ -124,6 +123,13 @@ msgstr ""
 #. module: l10n_pt_account_invoicexpress
 #: model:ir.model.fields,field_description:l10n_pt_account_invoicexpress.field_res_company__has_invoicexpress
 msgid "Has Invoicexpress"
+msgstr ""
+
+#. module: l10n_pt_account_invoicexpress
+#: model_terms:ir.ui.view,arch_db:l10n_pt_account_invoicexpress.res_config_settings_view_form
+msgid ""
+"Integration with InvoiceXpress for generating invoices and managing API "
+"settings"
 msgstr ""
 
 #. module: l10n_pt_account_invoicexpress
