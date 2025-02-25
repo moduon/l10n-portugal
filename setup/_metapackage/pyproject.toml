@@ -1,8 +1,9 @@
 [project]
 name = "odoo-addons-oca-l10n-portugal"
-version = "17.0.20250224.0"
+version = "17.0.20250225.0"
 dependencies = [
     "odoo-addon-l10n_pt_account_invoicexpress>=17.0dev,<17.1dev",
+    "odoo-addon-l10n_pt_stock_invoicexpress>=17.0dev,<17.1dev",
     "odoo-addon-l10n_pt_vat>=17.0dev,<17.1dev",
 ]
 classifiers=[
