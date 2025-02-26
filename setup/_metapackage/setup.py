@@ -10,6 +10,7 @@ setuptools.setup(
     install_requires=[
         'odoo14-addon-l10n_pt_account_invoicexpress',
         'odoo14-addon-l10n_pt_stock_invoicexpress',
+        'odoo14-addon-l10n_pt_stock_vehicle_daily',
         'odoo14-addon-l10n_pt_vat',
         'odoo14-addon-partner_permanent_certificate',
         'odoo14-addon-sms_global_digital',
